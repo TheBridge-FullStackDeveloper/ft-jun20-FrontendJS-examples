@@ -1,0 +1,23 @@
+{
+    "plate": "1234BCD",
+    "numberOfSeats": 9,
+    "numberOfDoors": 5,
+    "brand": "Lamborghini",
+    "horsePower": 300,
+    "previousInspections": [
+        "ITV 2010",
+        2010,
+        2011,
+        2012
+    ],
+    "start": (gasolina, llave, bateria) => {
+        if (gasolina && llave && bateria)
+            console.log("BRRRRRUUUUM");
+    },
+    "accelerate": () => {
+        console.log("A TODO GAASSS!");
+    },
+    "brake": () => {
+        console.log("psssstttt");
+    }
+}
